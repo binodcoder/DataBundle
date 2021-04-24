@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:gravity="center"
+         />
+
+    <EditText
+        android:id="@+id/et_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Address"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/btn_binod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:text="Binod"
+            />
+        <Button
+            android:id="@+id/btn_bijay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:text="Bijay"
+            />
+        <Button
+            android:id="@+id/btn_shrawan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_margin="3dp"
+            android:text="Shrawan"
+            />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
